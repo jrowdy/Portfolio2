@@ -1,5 +1,7 @@
 # Portfolio2
 
+Live Link: https://jrowdy.github.io/Portfolio2/.
+
 ![Portfolio Screenshot](https://user-images.githubusercontent.com/58674083/76421412-00467980-637a-11ea-81da-38bac72bd5e4.PNG)
 
 New portfolio with:
