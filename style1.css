@@ -1,0 +1,150 @@
+#header {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bellota', cursive;
+    text-shadow: 2px 2px rgb(1, 2, 24)(190, 139, 139);  
+}
+
+
+a {
+    font-family: 'Bellota', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(236, 234, 227);
+}
+
+#resume {
+    font-family: 'Bellota', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(72, 12, 236);
+}
+
+
+a:hover {
+        color:  rgb(53, 76, 128);
+}
+
+
+#nav {
+    width: 100%;
+    height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 169, 26);
+    float:right;
+
+}
+
+.about-me {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:  #4aaaa5;
+}
+
+hr {
+    color: gray
+}
+
+#pic1 {
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px rgb(17, 17, 17);
+    position: relative;
+}
+
+#blankbox {
+    height: 400px;
+}
+
+#background {
+    height: 430px;
+    background-image: url("webdevpic.jpg");
+    background-image:cover;
+    border-bottom: 5px solid rgb(221, 169, 26);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.boxy {
+    box-shadow: 10px 10px 5px rgb(53, 76, 128);
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+.boxy:hover {
+        background-color:  rgb(53, 76, 128);
+}
+
+#sched {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 2, 24);
+}
+
+#headerTop{
+background-color: rgb(218, 154, 235);
+box-shadow: 10px 10px 5px rgb(53, 76, 128);
+}
+
+#liftedCon {
+    background-color: rgb(206, 236, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(2, 6, 17);
+    height: 445px;
+    }
+    
+
+#info {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+    background-image: url("webb.png");
+    background-size:auto;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px;
+    line-height: 30px;
+}
+
+footer {
+    font-family: 'Bellota', cursive;
+    margin-top: 40px;
+    margin-bottom: 0 auto;
+    border-top: 3px solid #186ef0;
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    background-color: rgb(77, 18, 92);
+    color: rgb(247, 247, 247);
+    position:fixed;
+    bottom: 0px;
+}
+
+#footerIcons {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+#footerIcon2{
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#footerIcon3{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

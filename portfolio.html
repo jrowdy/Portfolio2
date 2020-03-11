@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <link href="style1.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <link href="style3.css" rel="stylesheet">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jasmin Rowdy Portfolio</title>
+        <title>Jasmin Rowdy</title>
+        <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
+         <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+         <!-- Compiled and minified JavaScript -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    </head>
+  
+    <body id="pagedecor">
+        <header>
+            <div id="headerTop" class="row">
+                <div class="col s4"> <a href="index.html"> <h4><b>Jasmin Rowdy</b></h4> Web Developer | Durham, NC</a> </div>
+                <div class="col s5"></div>
+                <div class="col s3">
+                    <br>
+                    <a href="index.html">About | </a>
+                    <a href="portfolio.html">Portfolio | </a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="liftedCon" class="container5">
+                        <div align="center"> <a onclick="myFunction1()"> Scheduler </a> | <a onclick="myFunction2()"> Password Generator </a>| <a onclick="myFunction3()"> Eventhub </a> | <a onclick="myFunction4()"> Code Quiz </a> </div>
+                        <h6 align="center">Click on an image to see the deployed application. Click on the Github icon learn more.</h6>
+                        <hr>
+
+                        <div id="sched" class="row" style="display:block">
+                            <div class="col s7">
+                                <a href="https://jrowdy.github.io/Scheduler">
+                                    <img class="boxy" src="proj1.png" width=500X500 >
+                                </a>
+                            </div>
+
+                            <div align="center" class="col s5"> 
+                                <a  href="https://github.com/jrowdy/Scheduler"> Workday Scheduler
+                                    <a href="https://github.com/jrowdy/Scheduler"> <img id="footerIcon3" src="./Assets/github.png" alt="Github Logo" width="30px" height="30px" ></a></a> 
+                                    
+                                    <hr> This application uses HTML, CSS, Materialize, JQuery and JavaScript. This is a planner for the working client that needs to visually see their daily responsibilities. The user will be able to type in details of their day in a timeslot and save by pressing the lock button-- which saves their information in local storage so that the details will stay on the page even after refreshing! </div>
+                         </div> 
+
+                         <div id="passgen" class="row" style="display:none">
+                             <div class="col s7"> <a href="https://jrowdy.github.io/Password-Generator/password.html"><img class="boxy" src="proj2.png"  width=500X500> </a> </div>
+                            
+                             <div class="col s5"  align="center"> 
+                                <a  href="https://github.com/jrowdy/Password-Generator"> Password Generator
+                                    <a href="https://github.com/jrowdy/Password-Generator"> <img id="footerIcon3" src="./Assets/github.png" alt="Github Logo" width="30px" height="30px" ></a></a> 
+                                 <hr> Password generator that provides user with a password between 8-128 characters based on their preferences (numeric, uppercase, lowercasse, uppercase). If user selects a number outside of the specified range, the generator will remind the user of the requirements and restart. If the user does not select any preferences, the generator will ask the user to restart and select at least one.
+
+                                 User can also copy their generated password to their clipboard.</div>
+                         </div>
+
+                         <div id="eventhub" class="row" style="display:none">
+                            <div class="col s7"> <a href="https://karna1014.github.io/Team3/"> <img class="boxy" src="proj3.png"  width=500X500> </a> </div>
+                            <div class="col s5"  align="center"><a href="https://github.com/jrowdy/Team3">Eventhub <a href="https://github.com/jrowdy/Team3"> <img id="footerIcon3" src="./Assets/github.png" alt="Github Logo" width="30px" height="30px" ></a></a> <hr> This application will allow you enter your interests and a city and it will return all the ticketed events from your search. It will save your previous search history and allow you to re-search them at will.</div>
+                        </div>
+
+                        <div id="codequiz" class="row" style="display:none">
+                            <div class="col s7"><a href="https://jrowdy.github.io/CodeQuiz/"><img class="boxy" src="proj4.png"  width=500X500> </a> </div>
+                            <div class="col s5" align="center"><a href="https://github.com/jrowdy/CodeQuiz"> Code Quiz <a href="https://github.com/jrowdy/CodeQuiz"> <img id="footerIcon3" src="./Assets/github.png" alt="Github Logo" width="30px" height="30px" ></a></a> <hr>A timed, multiple choice quiz based on coding related questions. Users will be given 75 seconds to answer 5 questions. A high score is obtained by answering quickly. Any time left on the timer is the user's score. If the user answers incorrectly, 10 seconds will be deducted from any remaining time left.
+
+                                A final score is presented at the end.</div>
+                        </div>
+  
+                        </section>
+        </main>
+     
+        <footer>
+            <section class="container">
+                <div class="row">
+                    <div class="col s3"></div>
+                    <div class="col 1"> <a href="https://www.linkedin.com/in/jrowdy-2020613/"><img id="footerIcons" src="./Assets/linkedin.png" alt="LinkedIn Logo" width="65px" height="65px"></a>
+                    </div>
+                    <div class="col s1"> 
+                        <a href="https://github.com/jrowdy"> <img id="footerIcon2" src="./Assets/github.png" alt="Github Logo" width="50px" height="50px" ></a> 
+                    </div>
+                    <div class="col s3">  
+                        <h6>Copyright &copy; Jasmin Rowdy </h6>
+                    </div>
+                    <div class="col s4"></div>
+                </div>
+            </section>
+    </footer>
+<script type="text/javascript" src="portfolio.js"></script>
+<script type="text/javascript" src="materialize.js"></script>
+    </body>
+</html>

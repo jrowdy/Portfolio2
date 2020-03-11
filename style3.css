@@ -1,0 +1,24 @@
+.container5 {
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    width: 918px;
+    background-color: white;
+    margin-left: 194px;
+    margin-right: 195px;
+    height: 675px;
+    color: #777777;
+    border: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+.boxy {
+    position: relative;
+    padding: 5px;
+}
+
+
+.clearfix {
+    overflow: auto;
+  }
