@@ -3,6 +3,7 @@ function myFunction1() {
     $("#passgen").css("display", "none");
     $("#eventhub").css("display", "none");
     $("#codequiz").css("display", "none");
+    $("#teamproject").css("display", "none");
 }
 
 function myFunction2() {
@@ -10,6 +11,7 @@ function myFunction2() {
     $("#passgen").css("display", "block");
     $("#eventhub").css("display", "none");
     $("#codequiz").css("display", "none");
+    $("#teamproject").css("display", "none");
 }
 
 function myFunction3() {
@@ -17,6 +19,7 @@ function myFunction3() {
     $("#passgen").css("display", "none");
     $("#eventhub").css("display", "block");
     $("#codequiz").css("display", "none");
+    $("#teamproject").css("display", "none");
 }
 
 function myFunction4() {
@@ -24,4 +27,14 @@ function myFunction4() {
     $("#passgen").css("display", "none");
     $("#eventhub").css("display", "none");
     $("#codequiz").css("display", "block");
+    $("#teamproject").css("display", "none");
 }
+
+function myFunction5() {
+    $("#sched").css("display", "none");
+    $("#passgen").css("display", "none");
+    $("#eventhub").css("display", "none");
+    $("#codequiz").css("display", "none"); 
+    $("#teamproject").css("display", "block");
+}
+
